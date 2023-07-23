@@ -22,3 +22,8 @@ document.getElementById('ctext5').innerHTML=`<b id='h1'>${ampm}</b>`
   document.getElementById('myVideo').setAttribute('hidden','true')
 }*/
 
+/*------------Copy Right Auto Year---------------------------------*/
+const d = new Date();
+let yr = d.getFullYear();
+console.log(yr)
+document.getElementById('spyr').textContent = yr
